@@ -27,6 +27,7 @@ I'm building a stronger engineering profile through small, consistent, and well-
 
 - [Contribution principles](CONTRIBUTING.md)
 - [Contribution plan](CONTRIBUTION_PLAN.md)
+- [Crypto contribution targets](CRYPTO_CONTRIBUTION_TARGETS.md)
 - [Review checklist](REVIEW_CHECKLIST.md)
 - [Open source log](OPEN_SOURCE_LOG.md)
 - [Commit comment examples](COMMIT_COMMENTS.md)
