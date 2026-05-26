@@ -58,6 +58,14 @@ This log tracks real contribution work: issues reviewed, pull requests opened, a
 - Result: Pull request opened against `edehvictor/StellarYield`.
 - Lesson: Crypto/Web3 docs contributions should tie guidance back to concrete route and middleware source files.
 
+### 2026-05-26 - stellar/awesome-stellar
+
+- Issue/PR: https://github.com/stellar/awesome-stellar/issues/30 and https://github.com/stellar/awesome-stellar/pull/36
+- Change: Replaced a stale OMFIF CBDC resource URL with the current report page.
+- Verification: Confirmed the new OMFIF report URL returns HTTP 200 and the old HTTPS thinktank URL returns 404.
+- Result: Pull request opened against `stellar/awesome-stellar`.
+- Lesson: Link fixes are strongest when they preserve the original resource intent and verify the replacement URL.
+
 ## Entry template
 
 ```markdown

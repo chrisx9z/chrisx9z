@@ -14,6 +14,12 @@ Creates a concise profile README so visitors can quickly understand my focus, co
 Defines a repeatable contribution workflow focused on small, reviewable, and verifiable open-source changes.
 ```
 
+## Commit: Track Stellar awesome-list contribution
+
+```text
+Records a focused crypto documentation PR and the link checks used to verify it.
+```
+
 ## Template
 
 ```text
