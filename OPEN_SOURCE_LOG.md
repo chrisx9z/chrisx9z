@@ -66,6 +66,14 @@ This log tracks real contribution work: issues reviewed, pull requests opened, a
 - Result: Pull request opened against `stellar/awesome-stellar`.
 - Lesson: Link fixes are strongest when they preserve the original resource intent and verify the replacement URL.
 
+### 2026-05-26 - FuelLabs/fuels-rs
+
+- Issue/PR: https://github.com/FuelLabs/fuels-rs/issues/1320 and https://github.com/FuelLabs/fuels-rs/pull/1712
+- Change: Added a `U256` docs page and linked it from the Types section.
+- Verification: Ran `git diff --check`, confirmed the docs link target exists, and checked the referenced `U256` APIs in source.
+- Result: Pull request opened against `FuelLabs/fuels-rs`.
+- Lesson: A concise type docs page should cover mapping, construction, generated-binding usage, and serialization behavior.
+
 ## Entry template
 
 ```markdown

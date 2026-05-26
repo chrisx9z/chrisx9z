@@ -20,6 +20,12 @@ Defines a repeatable contribution workflow focused on small, reviewable, and ver
 Records a focused crypto documentation PR and the link checks used to verify it.
 ```
 
+## Commit: Track FuelLabs U256 docs contribution
+
+```text
+Records a Fuel SDK documentation PR with the source checks used to support it.
+```
+
 ## Template
 
 ```text
