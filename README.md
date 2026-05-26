@@ -22,6 +22,12 @@ I'm building a stronger engineering profile through small, consistent, and well-
 - 1 documentation improvement per week
 - Build a public trail of clear commits, issue comments, and PR descriptions
 
+## Working notes
+
+- [Contribution plan](CONTRIBUTION_PLAN.md)
+- [Open source log](OPEN_SOURCE_LOG.md)
+- [Commit comment examples](COMMIT_COMMENTS.md)
+
 ## Contact
 
 - GitHub: [@chrisx9z](https://github.com/chrisx9z)
