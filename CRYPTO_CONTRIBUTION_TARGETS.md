@@ -30,3 +30,4 @@ This file tracks the contribution focus for crypto, Web3, Stellar, DeFi, and blo
 - `edehvictor/StellarYield#483` - backend rate limit documentation
 - `stellar/awesome-stellar#36` - fixed stale CBDC resource link
 - `FuelLabs/fuels-rs#1712` - documented the SDK `U256` type
+- `linera-io/linera-documentation#259` - documented edit-link source checks

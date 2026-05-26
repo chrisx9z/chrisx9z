@@ -26,6 +26,12 @@ Records a focused crypto documentation PR and the link checks used to verify it.
 Records a Fuel SDK documentation PR with the source checks used to support it.
 ```
 
+## Commit: Track Linera documentation contribution
+
+```text
+Records a Linera docs PR that adds source-link verification guidance.
+```
+
 ## Template
 
 ```text

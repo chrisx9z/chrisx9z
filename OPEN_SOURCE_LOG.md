@@ -74,6 +74,14 @@ This log tracks real contribution work: issues reviewed, pull requests opened, a
 - Result: Pull request opened against `FuelLabs/fuels-rs`.
 - Lesson: A concise type docs page should cover mapping, construction, generated-binding usage, and serialization behavior.
 
+### 2026-05-26 - linera-io/linera-documentation
+
+- Issue/PR: https://github.com/linera-io/linera-documentation/issues/258 and https://github.com/linera-io/linera-documentation/pull/259
+- Change: Documented source-link checks for generated Linera documentation edit URLs.
+- Verification: Ran `git diff --check` and confirmed the README includes the expected edit URL example.
+- Result: Pull request opened against `linera-io/linera-documentation`.
+- Lesson: Documentation deployment repos benefit from explicit source-path checks that prevent contributor-facing links from drifting.
+
 ## Entry template
 
 ```markdown
