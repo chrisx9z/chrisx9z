@@ -38,6 +38,12 @@ Records a Linera docs PR that adds source-link verification guidance.
 Records a Stellar SDK helper PR that extracts claimable balance IDs from transaction result XDRs.
 ```
 
+## Commit: Track Stellar ETL filename contribution
+
+```text
+Records a Stellar ETL code PR that labels JSON export files with the correct extension.
+```
+
 ## Template
 
 ```text

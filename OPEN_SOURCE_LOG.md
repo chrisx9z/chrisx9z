@@ -90,6 +90,14 @@ This log tracks real contribution work: issues reviewed, pull requests opened, a
 - Result: Pull request opened against `stellar/js-stellar-base`.
 - Lesson: SDK helpers should accept the object developers already receive after submission while keeping error cases explicit.
 
+### 2026-05-27 - stellar/stellar-etl
+
+- Issue/PR: https://github.com/stellar/stellar-etl/issues/327 and https://github.com/stellar/stellar-etl/pull/428
+- Change: Updated JSON-line export filenames and command docs from `.txt` to `.json`.
+- Verification: Ran `git diff --check` and confirmed remaining `.txt` references are for the non-JSON ledger range command or tests.
+- Result: Pull request opened against `stellar/stellar-etl`.
+- Lesson: File extensions should reflect the payload format so downstream pipelines and users can infer content correctly.
+
 ## Entry template
 
 ```markdown
