@@ -26,6 +26,14 @@ This log tracks real contribution work: issues reviewed, pull requests opened, a
 - Result: Pull request opened against `chaoss/CollectOSS`.
 - Lesson: A small documentation PR is stronger when it also checks that replacement links are live.
 
+### 2026-05-26 - kingkyylian/linwarden
+
+- Issue/PR: https://github.com/kingkyylian/linwarden/issues/49 and https://github.com/kingkyylian/linwarden/pull/50
+- Change: Added a maintainer checklist for public repository metadata and linked it from launch guidance.
+- Verification: Ran `tests.test_action_metadata` and `python -m compileall -q src tests scripts`.
+- Result: Pull request opened against `kingkyylian/linwarden`.
+- Lesson: Documentation tasks with explicit acceptance criteria are good second contributions because verification can stay concrete.
+
 ## Entry template
 
 ```markdown
