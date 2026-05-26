@@ -4,6 +4,7 @@ I'm building a stronger engineering profile through small, consistent, and well-
 
 ## Current focus
 
+- Crypto, Web3, Stellar, and DeFi developer tooling
 - Reading and improving developer documentation
 - Fixing small bugs with clear reproduction steps
 - Writing focused tests for existing behavior

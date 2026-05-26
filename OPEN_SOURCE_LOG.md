@@ -50,6 +50,14 @@ This log tracks real contribution work: issues reviewed, pull requests opened, a
 - Result: Pull request opened against `kingkyylian/linwarden`.
 - Lesson: Small documentation changes are more useful when they place guidance exactly where readers need it.
 
+### 2026-05-26 - edehvictor/StellarYield
+
+- Issue/PR: https://github.com/edehvictor/StellarYield/issues/466 and https://github.com/edehvictor/StellarYield/pull/483
+- Change: Documented backend rate-limited endpoints, expected `429` behavior, and frontend retry guidance.
+- Verification: Confirmed limiter source references and documented endpoint limits with `rg`.
+- Result: Pull request opened against `edehvictor/StellarYield`.
+- Lesson: Crypto/Web3 docs contributions should tie guidance back to concrete route and middleware source files.
+
 ## Entry template
 
 ```markdown
