@@ -32,6 +32,12 @@ Records a Fuel SDK documentation PR with the source checks used to support it.
 Records a Linera docs PR that adds source-link verification guidance.
 ```
 
+## Commit: Track Stellar base code contribution
+
+```text
+Records a Stellar SDK helper PR that extracts claimable balance IDs from transaction result XDRs.
+```
+
 ## Template
 
 ```text

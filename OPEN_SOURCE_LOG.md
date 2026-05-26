@@ -82,6 +82,14 @@ This log tracks real contribution work: issues reviewed, pull requests opened, a
 - Result: Pull request opened against `linera-io/linera-documentation`.
 - Lesson: Documentation deployment repos benefit from explicit source-path checks that prevent contributor-facing links from drifting.
 
+### 2026-05-26 - stellar/js-stellar-base
+
+- Issue/PR: https://github.com/stellar/js-stellar-sdk/issues/584 and https://github.com/stellar/js-stellar-base/pull/967
+- Change: Added `getClaimableBalanceIdFromResult` to extract create-claimable-balance IDs from successful transaction result XDRs.
+- Verification: Ran `git diff --check`, `node --check src/get_claimable_balance_id.js`, and `node --check test/unit/get_claimable_balance_id_test.js`.
+- Result: Pull request opened against `stellar/js-stellar-base`.
+- Lesson: SDK helpers should accept the object developers already receive after submission while keeping error cases explicit.
+
 ## Entry template
 
 ```markdown
