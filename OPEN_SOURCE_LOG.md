@@ -18,6 +18,14 @@ This log tracks real contribution work: issues reviewed, pull requests opened, a
 - Reproduce or verify the issue before commenting.
 - Open one small PR with a focused summary and verification notes.
 
+### 2026-05-26 - chaoss/CollectOSS
+
+- Issue/PR: https://github.com/chaoss/CollectOSS/issues/340 and https://github.com/chaoss/CollectOSS/pull/341
+- Change: Replaced old CollectOSS Read the Docs host references with `docs.collectoss.org`.
+- Verification: Confirmed `collectoss.readthedocs.io` no longer appears in the repository and checked the new docs pages return HTTP 200.
+- Result: Pull request opened against `chaoss/CollectOSS`.
+- Lesson: A small documentation PR is stronger when it also checks that replacement links are live.
+
 ## Entry template
 
 ```markdown
