@@ -42,6 +42,14 @@ This log tracks real contribution work: issues reviewed, pull requests opened, a
 - Result: Pull request opened against `kingkyylian/linwarden`.
 - Lesson: Contributor-facing docs should make scope, labels, acceptance criteria, and verification explicit.
 
+### 2026-05-26 - kingkyylian/linwarden
+
+- Issue/PR: https://github.com/kingkyylian/linwarden/issues/35 and https://github.com/kingkyylian/linwarden/pull/54
+- Change: Moved the security reporting link into the README Security Model section.
+- Verification: Ran `tests.test_action_metadata` and `python -m compileall -q src tests scripts`.
+- Result: Pull request opened against `kingkyylian/linwarden`.
+- Lesson: Small documentation changes are more useful when they place guidance exactly where readers need it.
+
 ## Entry template
 
 ```markdown
