@@ -1,29 +1,55 @@
-# Hi, I'm Chris
+# Chris Nguyen
 
-I'm building a stronger engineering profile through small, consistent, and well-reviewed contributions.
+SEO Strategist, Software Developer, and Crypto Builder.
 
-## Current focus
+Born in 1995, I have spent my career working at the intersection of search growth, product engineering, automation, and digital assets. My background combines 13+ years in SEO, 8+ years in software development, and 7+ years in crypto, giving me a practical view of how products are discovered, built, scaled, and sustained.
 
-- Crypto, Web3, Stellar, and DeFi developer tooling
-- Reading and improving developer documentation
-- Fixing small bugs with clear reproduction steps
-- Writing focused tests for existing behavior
-- Learning open-source contribution workflows
+## What I Do
 
-## How I contribute
+- Build and improve web products, automation workflows, and developer tools
+- Design SEO systems for technical, content, and growth-driven websites
+- Work with crypto, Web3, DeFi, wallet flows, and open-source ecosystems
+- Turn business goals into clear technical execution plans
+- Improve documentation, testing, contributor workflows, and product quality
 
-- I start with scoped issues and read the contribution guide first.
-- I keep pull requests small enough to review quickly.
-- I explain the problem, the change, and how I tested it.
-- I prefer maintainable fixes over large rewrites.
+## Experience
 
-## Contribution goals
+**SEO and Growth - 13+ years**  
+Technical SEO, content strategy, keyword research, on-page optimization, site architecture, analytics, competitive research, and scalable organic growth systems.
 
-- 1 quality pull request per week
-- 1 documentation improvement per week
-- Build a public trail of clear commits, issue comments, and PR descriptions
+**Software Development - 8+ years**  
+Web development, backend workflows, automation scripts, API integrations, debugging, testing, documentation, and practical product engineering.
 
-## Working notes
+**Crypto and Web3 - 7+ years**  
+Crypto research, blockchain products, DeFi concepts, wallet UX, token ecosystems, community workflows, and open-source contribution models.
+
+## Current Focus
+
+- Open-source contributions with clear evidence and test coverage
+- Crypto, Web3, Stellar, DeFi, and developer tooling
+- Practical AI-assisted engineering workflows
+- Documentation and onboarding improvements for technical products
+- Small, focused pull requests that are easy to review and maintain
+
+## How I Work
+
+- I prefer clear scope, measurable outcomes, and direct communication.
+- I read the codebase and contribution guide before making changes.
+- I keep pull requests focused and explain what changed, why it changed, and how it was tested.
+- I value maintainable improvements over broad rewrites.
+- I combine growth thinking with engineering discipline.
+
+## Selected Strengths
+
+- SEO strategy and technical audits
+- Full-stack product thinking
+- Automation and workflow optimization
+- Crypto product research
+- Developer documentation
+- Bug reproduction and focused fixes
+- Long-term growth and execution planning
+
+## Working Notes
 
 - [Contribution principles](CONTRIBUTING.md)
 - [Contribution plan](CONTRIBUTION_PLAN.md)
