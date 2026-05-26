@@ -34,6 +34,14 @@ This log tracks real contribution work: issues reviewed, pull requests opened, a
 - Result: Pull request opened against `kingkyylian/linwarden`.
 - Lesson: Documentation tasks with explicit acceptance criteria are good second contributions because verification can stay concrete.
 
+### 2026-05-26 - kingkyylian/linwarden
+
+- Issue/PR: https://github.com/kingkyylian/linwarden/issues/51 and https://github.com/kingkyylian/linwarden/pull/52
+- Change: Added a contributor issue curation checklist and linked it from contributor ideas.
+- Verification: Ran `tests.test_action_metadata` and `python -m compileall -q src tests scripts`.
+- Result: Pull request opened against `kingkyylian/linwarden`.
+- Lesson: Contributor-facing docs should make scope, labels, acceptance criteria, and verification explicit.
+
 ## Entry template
 
 ```markdown
