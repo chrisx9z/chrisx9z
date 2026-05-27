@@ -44,6 +44,12 @@ Records a Stellar SDK helper PR that extracts claimable balance IDs from transac
 Records a Stellar ETL code PR that labels JSON export files with the correct extension.
 ```
 
+## Commit: Track Stellar review follow-ups
+
+```text
+Records follow-up commits that respond to review feedback on active Stellar PRs.
+```
+
 ## Template
 
 ```text

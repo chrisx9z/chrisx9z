@@ -88,6 +88,7 @@ This log tracks real contribution work: issues reviewed, pull requests opened, a
 - Change: Added `getClaimableBalanceIdFromResult` to extract create-claimable-balance IDs from successful transaction result XDRs.
 - Verification: Ran `git diff --check`, `node --check src/get_claimable_balance_id.js`, and `node --check test/unit/get_claimable_balance_id_test.js`.
 - Result: Pull request opened against `stellar/js-stellar-base`.
+- Follow-up: Addressed review feedback by clarifying optional index docs, improving index errors, and covering non-success results.
 - Lesson: SDK helpers should accept the object developers already receive after submission while keeping error cases explicit.
 
 ### 2026-05-27 - stellar/stellar-etl
@@ -96,6 +97,7 @@ This log tracks real contribution work: issues reviewed, pull requests opened, a
 - Change: Updated JSON-line export filenames and command docs from `.txt` to `.json`.
 - Verification: Ran `git diff --check` and confirmed remaining `.txt` references are for the non-JSON ledger range command or tests.
 - Result: Pull request opened against `stellar/stellar-etl`.
+- Follow-up: Addressed review feedback by documenting that `.json` exports are newline-delimited JSON rows.
 - Lesson: File extensions should reflect the payload format so downstream pipelines and users can infer content correctly.
 
 ## Entry template
