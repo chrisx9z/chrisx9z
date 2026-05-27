@@ -148,6 +148,14 @@ This log tracks real contribution work: issues reviewed, pull requests opened, a
 - Result: Pull request opened against `wevm/prool`.
 - Lesson: Timeout wrappers should own cleanup and guard against late async completions changing state after rejection.
 
+### 2026-05-27 - stellar/js-stellar-base
+
+- Issue/PR: https://github.com/stellar/js-stellar-base/issues/347 and https://github.com/stellar/js-stellar-base/pull/971
+- Change: Updated `setOptions` flag input types so bitwise bitmap expressions and string flag values work without TypeScript casts.
+- Verification: Ran `corepack yarn dtslint --localTs node_modules/typescript/lib types/`, `node --check types/test.ts`, and `git diff --check`.
+- Result: Pull request opened against `stellar/js-stellar-base`.
+- Lesson: Type declarations for SDK builders should match the runtime input contract, especially for bitmask-style fields.
+
 ## Entry template
 
 ```markdown

@@ -86,6 +86,12 @@ Records a Stellar SDK validation message fix that explains max int64 amount over
 Records a wevm instance lifecycle fix that keeps start timeouts catchable and state-safe.
 ```
 
+## Commit: Track Stellar bitwise flag type contribution
+
+```text
+Records a Stellar SDK typing fix that accepts bitwise setOptions flag inputs without casts.
+```
+
 ## Template
 
 ```text
