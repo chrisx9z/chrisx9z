@@ -80,6 +80,12 @@ Records a Stellar SDK typing fix that aligns revoke sponsorship operation litera
 Records a Stellar SDK validation message fix that explains max int64 amount overflows.
 ```
 
+## Commit: Track wevm Prool timeout contribution
+
+```text
+Records a wevm instance lifecycle fix that keeps start timeouts catchable and state-safe.
+```
+
 ## Template
 
 ```text

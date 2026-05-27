@@ -140,6 +140,14 @@ This log tracks real contribution work: issues reviewed, pull requests opened, a
 - Result: Pull request opened against `stellar/js-stellar-base`.
 - Lesson: Validation errors should name boundary conditions when a single generic message can hide the actual cause.
 
+### 2026-05-27 - wevm/prool
+
+- Issue/PR: https://github.com/wevm/prool/issues/44 and https://github.com/wevm/prool/pull/79
+- Change: Cleaned up instance start timeout handling so timed-out starts reject catchably, reset to `idle`, and ignore late start resolution.
+- Verification: Ran `pnpm exec tsc --noEmit`, focused `Instance.test.ts` coverage, Biome checks, and `git diff --check`.
+- Result: Pull request opened against `wevm/prool`.
+- Lesson: Timeout wrappers should own cleanup and guard against late async completions changing state after rejection.
+
 ## Entry template
 
 ```markdown

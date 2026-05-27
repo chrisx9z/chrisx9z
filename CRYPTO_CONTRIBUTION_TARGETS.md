@@ -38,3 +38,4 @@ This file tracks the contribution focus for crypto, Web3, Stellar, DeFi, and blo
 - `stellar/js-stellar-base#968` - added signed payload signer support for revoke signer sponsorship
 - `stellar/js-stellar-base#969` - aligned revoke sponsorship TypeScript operation literals with runtime subtype names
 - `stellar/js-stellar-base#970` - clarified amount validation errors for max int64 overflows
+- `wevm/prool#79` - cleaned up catchable start timeout handling
