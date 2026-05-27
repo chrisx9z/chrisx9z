@@ -68,6 +68,12 @@ Records a wevm process-wrapper PR that reduces dependencies while preserving the
 Records a Stellar SDK bug fix that adds CAP-40 signed payload signer support to revoke signer sponsorship.
 ```
 
+## Commit: Track Stellar revoke sponsorship type contribution
+
+```text
+Records a Stellar SDK typing fix that aligns revoke sponsorship operation literals with runtime subtype names.
+```
+
 ## Template
 
 ```text

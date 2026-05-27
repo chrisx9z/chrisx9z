@@ -36,3 +36,4 @@ This file tracks the contribution focus for crypto, Web3, Stellar, DeFi, and blo
 - `wevm/zile#47` - lazy-loaded optional examples command dependencies
 - `wevm/prool#78` - migrated the process wrapper from `execa` to `tinyexec`
 - `stellar/js-stellar-base#968` - added signed payload signer support for revoke signer sponsorship
+- `stellar/js-stellar-base#969` - aligned revoke sponsorship TypeScript operation literals with runtime subtype names

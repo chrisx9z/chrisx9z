@@ -124,6 +124,14 @@ This log tracks real contribution work: issues reviewed, pull requests opened, a
 - Result: Pull request opened against `stellar/js-stellar-base`.
 - Lesson: Parser and builder paths for XDR union arms should stay in parity across related operation helpers.
 
+### 2026-05-27 - stellar/js-stellar-base
+
+- Issue/PR: https://github.com/stellar/js-stellar-base/issues/728 and https://github.com/stellar/js-stellar-base/pull/969
+- Change: Added TypeScript operation type literals for each revoke sponsorship subtype and aligned operation interfaces with runtime `operation.type` values.
+- Verification: Ran `corepack yarn dtslint --localTs node_modules/typescript/lib types/`, `node --check types/test.ts`, and `git diff --check`.
+- Result: Pull request opened against `stellar/js-stellar-base`.
+- Lesson: Type definitions should mirror runtime discriminants so downstream clients can switch exhaustively without local workarounds.
+
 ## Entry template
 
 ```markdown
