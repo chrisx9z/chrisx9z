@@ -100,6 +100,14 @@ This log tracks real contribution work: issues reviewed, pull requests opened, a
 - Follow-up: Addressed review feedback by documenting that `.json` exports are newline-delimited JSON rows.
 - Lesson: File extensions should reflect the payload format so downstream pipelines and users can infer content correctly.
 
+### 2026-05-27 - wevm/zile
+
+- Issue/PR: https://github.com/wevm/zile/issues/46 and https://github.com/wevm/zile/pull/47
+- Change: Lazy-loaded the examples command module so `zile new` does not require `typescript`.
+- Verification: Ran `git diff --check` and confirmed only `build --check-examples` and `examples:check` import the examples module.
+- Result: Pull request opened against `wevm/zile`.
+- Lesson: CLI entrypoints should avoid loading optional command dependencies before argument parsing.
+
 ## Entry template
 
 ```markdown

@@ -50,6 +50,12 @@ Records a Stellar ETL code PR that labels JSON export files with the correct ext
 Records follow-up commits that respond to review feedback on active Stellar PRs.
 ```
 
+## Commit: Track wevm Zile contribution
+
+```text
+Records a wevm tooling PR that prevents new-project creation from loading optional TypeScript-backed example checks.
+```
+
 ## Template
 
 ```text

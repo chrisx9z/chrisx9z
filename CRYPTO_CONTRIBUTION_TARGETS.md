@@ -33,3 +33,4 @@ This file tracks the contribution focus for crypto, Web3, Stellar, DeFi, and blo
 - `linera-io/linera-documentation#259` - documented edit-link source checks
 - `stellar/js-stellar-base#967` - added a claimable balance ID helper for transaction result XDR
 - `stellar/stellar-etl#428` - labeled JSON export files with `.json` extension
+- `wevm/zile#47` - lazy-loaded optional examples command dependencies
