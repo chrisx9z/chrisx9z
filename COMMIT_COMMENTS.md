@@ -56,6 +56,12 @@ Records follow-up commits that respond to review feedback on active Stellar PRs.
 Records a wevm tooling PR that prevents new-project creation from loading optional TypeScript-backed example checks.
 ```
 
+## Commit: Track wevm Prool contribution
+
+```text
+Records a wevm process-wrapper PR that reduces dependencies while preserving the tagged-template command API.
+```
+
 ## Template
 
 ```text

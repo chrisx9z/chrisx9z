@@ -108,6 +108,14 @@ This log tracks real contribution work: issues reviewed, pull requests opened, a
 - Result: Pull request opened against `wevm/zile`.
 - Lesson: CLI entrypoints should avoid loading optional command dependencies before argument parsing.
 
+### 2026-05-27 - wevm/prool
+
+- Issue/PR: https://github.com/wevm/prool/issues/34 and https://github.com/wevm/prool/pull/78
+- Change: Migrated the internal process wrapper from `execa` to `tinyexec` while preserving the tagged-template start callback API.
+- Verification: Ran `pnpm install --lockfile-only`, `pnpm install --ignore-scripts`, `pnpm exec tsc --noEmit`, `pnpm exec biome check src/processes/execa.ts package.json .changeset/yellow-rockets-jam.md`, and `git diff --check`.
+- Result: Pull request opened against `wevm/prool`.
+- Lesson: Dependency-reduction PRs should preserve public callback shape and include compatibility notes for command tokenization.
+
 ## Entry template
 
 ```markdown
