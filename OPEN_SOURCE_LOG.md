@@ -132,6 +132,14 @@ This log tracks real contribution work: issues reviewed, pull requests opened, a
 - Result: Pull request opened against `stellar/js-stellar-base`.
 - Lesson: Type definitions should mirror runtime discriminants so downstream clients can switch exhaustively without local workarounds.
 
+### 2026-05-27 - stellar/js-stellar-base
+
+- Issue/PR: https://github.com/stellar/js-stellar-base/issues/789 and https://github.com/stellar/js-stellar-base/pull/970
+- Change: Updated amount validation errors to mention the maximum 64-bit signed integer limit and added a `destMin` regression test.
+- Verification: Ran focused mocha coverage for `pathPaymentStrictSend`, source ESLint, syntax checks, and `git diff --check`.
+- Result: Pull request opened against `stellar/js-stellar-base`.
+- Lesson: Validation errors should name boundary conditions when a single generic message can hide the actual cause.
+
 ## Entry template
 
 ```markdown

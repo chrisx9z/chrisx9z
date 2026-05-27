@@ -74,6 +74,12 @@ Records a Stellar SDK bug fix that adds CAP-40 signed payload signer support to 
 Records a Stellar SDK typing fix that aligns revoke sponsorship operation literals with runtime subtype names.
 ```
 
+## Commit: Track Stellar amount error contribution
+
+```text
+Records a Stellar SDK validation message fix that explains max int64 amount overflows.
+```
+
 ## Template
 
 ```text
