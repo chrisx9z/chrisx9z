@@ -62,6 +62,12 @@ Records a wevm tooling PR that prevents new-project creation from loading option
 Records a wevm process-wrapper PR that reduces dependencies while preserving the tagged-template command API.
 ```
 
+## Commit: Track Stellar signed payload contribution
+
+```text
+Records a Stellar SDK bug fix that adds CAP-40 signed payload signer support to revoke signer sponsorship.
+```
+
 ## Template
 
 ```text

@@ -116,6 +116,14 @@ This log tracks real contribution work: issues reviewed, pull requests opened, a
 - Result: Pull request opened against `wevm/prool`.
 - Lesson: Dependency-reduction PRs should preserve public callback shape and include compatibility notes for command tokenization.
 
+### 2026-05-27 - stellar/js-stellar-base
+
+- Issue/PR: https://github.com/stellar/js-stellar-base/issues/966 and https://github.com/stellar/js-stellar-base/pull/968
+- Change: Added CAP-40 signed payload signer support to revoke signer sponsorship parsing and building.
+- Verification: Ran focused mocha coverage for `revokeSignerSponsorship`, source ESLint checks, syntax checks, and `git diff --check`.
+- Result: Pull request opened against `stellar/js-stellar-base`.
+- Lesson: Parser and builder paths for XDR union arms should stay in parity across related operation helpers.
+
 ## Entry template
 
 ```markdown
