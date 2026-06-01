@@ -156,6 +156,14 @@ This log tracks real contribution work: issues reviewed, pull requests opened, a
 - Result: Pull request opened against `stellar/js-stellar-base`.
 - Lesson: Type declarations for SDK builders should match the runtime input contract, especially for bitmask-style fields.
 
+### 2026-06-01 - stellar/js-stellar-base
+
+- Issue/PR: https://github.com/stellar/js-stellar-base/issues/200 and https://github.com/stellar/js-stellar-base/pull/973
+- Change: Added a non-breaking `amount` alias for `manageBuyOffer` while preserving `buyAmount` compatibility.
+- Verification: Ran focused `manageBuyOffer` mocha coverage, TypeScript declaration checks, source ESLint, syntax checks, and `git diff --check`.
+- Result: Pull request opened against `stellar/js-stellar-base`.
+- Lesson: SDK builders can smooth naming drift by accepting documented aliases while keeping backward compatibility.
+
 ## Entry template
 
 ```markdown

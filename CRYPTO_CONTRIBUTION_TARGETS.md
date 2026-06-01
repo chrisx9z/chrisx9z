@@ -40,3 +40,4 @@ This file tracks the contribution focus for crypto, Web3, Stellar, DeFi, and blo
 - `stellar/js-stellar-base#970` - clarified amount validation errors for max int64 overflows
 - `wevm/prool#79` - cleaned up catchable start timeout handling
 - `stellar/js-stellar-base#971` - allowed bitwise `setOptions` flag inputs without TypeScript casts
+- `stellar/js-stellar-base#973` - added a non-breaking `amount` alias for `manageBuyOffer`

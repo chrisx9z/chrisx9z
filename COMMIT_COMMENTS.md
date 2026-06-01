@@ -92,6 +92,12 @@ Records a wevm instance lifecycle fix that keeps start timeouts catchable and st
 Records a Stellar SDK typing fix that accepts bitwise setOptions flag inputs without casts.
 ```
 
+## Commit: Track Stellar manage buy offer contribution
+
+```text
+Records the manageBuyOffer amount alias PR and verification notes.
+```
+
 ## Template
 
 ```text
